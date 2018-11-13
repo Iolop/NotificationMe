@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NotificationA</string>
+    <string name="todo">TODO</string>
+    <string name="addNewTodo">addNewTodo</string>
+    <string name="editHint">Add todo things here~</string>
+    <string name="todoDays">Set Day</string>
+    <string name="todoTime">Set Specific Time</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:paddingTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ev_todothing"
+        android:hint="@string/editHint"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/ev_todothing">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bu_addtime"
+            android:text="@string/todoTime"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bu_addday"
+            android:text="@string/todoDays"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_addnew_finish"
+        android:src="@drawable/baseline_alarm_on_black_18dp"
+        android:layout_alignParentBottom="true"
+        android:padding="10sp"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>
+</android.support.constraint.ConstraintLayout>
